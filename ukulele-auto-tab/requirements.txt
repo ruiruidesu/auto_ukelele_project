@@ -1,0 +1,6 @@
+pytest
+librosa
+numpy
+soundfile
+imageio-ffmpeg
+reportlab

@@ -1,0 +1,145 @@
+{
+  "page_layout": {
+    "system_count": 1,
+    "systems": [
+      {
+        "system_index": 1,
+        "measure_numbers": [
+          1
+        ],
+        "string_count": 4,
+        "string_labels": [
+          "A",
+          "E",
+          "C",
+          "G"
+        ]
+      }
+    ],
+    "beats_per_measure": 4,
+    "bpm_estimate": 61.52,
+    "time_signature": "4/4"
+  },
+  "symbol_events": [
+    {
+      "note_index": 1,
+      "measure_number": 1,
+      "string_name": "A",
+      "fret_number": 0,
+      "beat_start_in_measure": 1.0,
+      "duration_beats": 0.25,
+      "rhythm_value": "sixteenth",
+      "beam_group": "beam_1",
+      "beam_level": 2,
+      "beat_pattern": "four_sixteenths",
+      "tuplet_group": null,
+      "slide_to_next": false,
+      "slide_from_previous": false,
+      "harmonic_candidate": false,
+      "articulation_hint": null
+    },
+    {
+      "note_index": 2,
+      "measure_number": 1,
+      "string_name": "A",
+      "fret_number": 0,
+      "beat_start_in_measure": 1.25,
+      "duration_beats": 0.25,
+      "rhythm_value": "sixteenth",
+      "beam_group": "beam_1",
+      "beam_level": 2,
+      "beat_pattern": "four_sixteenths",
+      "tuplet_group": null,
+      "slide_to_next": true,
+      "slide_from_previous": false,
+      "harmonic_candidate": false,
+      "articulation_hint": "slide"
+    },
+    {
+      "note_index": 3,
+      "measure_number": 1,
+      "string_name": "A",
+      "fret_number": 2,
+      "beat_start_in_measure": 1.5,
+      "duration_beats": 0.25,
+      "rhythm_value": "sixteenth",
+      "beam_group": "beam_1",
+      "beam_level": 2,
+      "beat_pattern": "four_sixteenths",
+      "tuplet_group": null,
+      "slide_to_next": true,
+      "slide_from_previous": true,
+      "harmonic_candidate": false,
+      "articulation_hint": "slide"
+    },
+    {
+      "note_index": 4,
+      "measure_number": 1,
+      "string_name": "A",
+      "fret_number": 3,
+      "beat_start_in_measure": 1.75,
+      "duration_beats": 0.25,
+      "rhythm_value": "sixteenth",
+      "beam_group": "beam_1",
+      "beam_level": 2,
+      "beat_pattern": "four_sixteenths",
+      "tuplet_group": null,
+      "slide_to_next": false,
+      "slide_from_previous": true,
+      "harmonic_candidate": false,
+      "articulation_hint": "slide"
+    },
+    {
+      "note_index": 5,
+      "measure_number": 1,
+      "string_name": "A",
+      "fret_number": 3,
+      "beat_start_in_measure": 2.0,
+      "duration_beats": 0.5,
+      "rhythm_value": "eighth",
+      "beam_group": "beam_2",
+      "beam_level": 1,
+      "beat_pattern": "two_eighths",
+      "tuplet_group": null,
+      "slide_to_next": true,
+      "slide_from_previous": false,
+      "harmonic_candidate": false,
+      "articulation_hint": "slide"
+    },
+    {
+      "note_index": 6,
+      "measure_number": 1,
+      "string_name": "A",
+      "fret_number": 5,
+      "beat_start_in_measure": 2.5,
+      "duration_beats": 0.5,
+      "rhythm_value": "eighth",
+      "beam_group": "beam_2",
+      "beam_level": 1,
+      "beat_pattern": "two_eighths",
+      "tuplet_group": null,
+      "slide_to_next": false,
+      "slide_from_previous": true,
+      "harmonic_candidate": false,
+      "articulation_hint": "slide"
+    },
+    {
+      "note_index": 7,
+      "measure_number": 1,
+      "string_name": "A",
+      "fret_number": 5,
+      "beat_start_in_measure": 3.0,
+      "duration_beats": 1.0,
+      "rhythm_value": "quarter",
+      "beam_group": null,
+      "beam_level": 0,
+      "beat_pattern": "quarter",
+      "tuplet_group": null,
+      "slide_to_next": false,
+      "slide_from_previous": false,
+      "harmonic_candidate": false,
+      "articulation_hint": null
+    }
+  ],
+  "notes": "This notation layer separates page layout, symbol events, and rhythmic values. It is intended to support future score-image comparison and more faithful PDF rendering."
+}

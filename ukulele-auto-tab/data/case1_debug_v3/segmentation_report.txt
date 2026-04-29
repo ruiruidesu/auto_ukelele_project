@@ -1,0 +1,9 @@
+Segmentation report
+raw note count: 79
+merged fragments: 7
+filtered short notes: 2
+final note count: 70
+average note duration: 0.4051
+dense repeat warning: False
+minimum duration threshold: 0.12
+bpm estimate: 129.2

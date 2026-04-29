@@ -1,0 +1,6 @@
+Ukulele mapping debug
+status: skipped_until_segmented_notes_are_reviewed
+bpm estimate: 152.0
+beat positions: 0.0232, 0.4180, 0.8127, 1.2307, 1.5790
+measure segmentation: 0.0000, 0.0232, 1.5790
+Mapping intentionally disabled in this stage.

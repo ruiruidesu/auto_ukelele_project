@@ -1,0 +1,5 @@
+Ukulele mapping
+001 note=A4 midi=69 string=A fret=0 measure=1 beat=1.00 reason=open string is easy, top melody string is intuitive, open A is a natural melody starting point
+002 note=B4 midi=71 string=A fret=2 measure=1 beat=2.00 reason=prefer manageable fret 2, hand position around fret 1, note fits naturally in local hand shape, top melody string is intuitive, anchor shift 1, small hand move, same string small move
+003 note=C5 midi=72 string=A fret=3 measure=1 beat=3.00 reason=prefer manageable fret 3, hand position around fret 1, note fits naturally in local hand shape, top melody string is intuitive, anchor shift 0, stay in same hand position, same string small move
+004 note=D5 midi=74 string=A fret=5 measure=1 beat=4.00 reason=prefer manageable fret 5, hand position around fret 2, full four-fret stretch, top melody string is intuitive, anchor shift 1, small hand move, same string small move

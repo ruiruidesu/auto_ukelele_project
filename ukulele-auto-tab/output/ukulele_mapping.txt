@@ -1,0 +1,45 @@
+Ukulele mapping
+001 note=G#3 midi=56 string=C fret=0 measure=2 beat=1.50 reason=open string is easy
+002 note=G#3 midi=56 string=C fret=0 measure=2 beat=2.50 reason=open string is easy, anchor shift 0, same string small move
+003 note=G#3 midi=56 string=C fret=0 measure=2 beat=3.50 reason=open string is easy, anchor shift 0, same string small move
+004 note=C#4 midi=61 string=C fret=1 measure=5 beat=1.50 reason=prefer manageable fret 1, hand position around fret 1, note fits naturally in local hand shape, anchor shift 1, small hand move, same string small move, middle strings often feel stable
+005 note=C#4 midi=61 string=C fret=1 measure=5 beat=1.50 reason=prefer manageable fret 1, hand position around fret 1, note fits naturally in local hand shape, anchor shift 0, stay in same hand position, same string small move, middle strings often feel stable
+006 note=C#4 midi=61 string=C fret=1 measure=5 beat=1.50 reason=prefer manageable fret 1, hand position around fret 1, note fits naturally in local hand shape, anchor shift 0, stay in same hand position, same string small move, middle strings often feel stable
+007 note=C#4 midi=61 string=C fret=1 measure=5 beat=2.00 reason=prefer manageable fret 1, hand position around fret 1, note fits naturally in local hand shape, anchor shift 0, stay in same hand position, same string small move, middle strings often feel stable
+008 note=C#4 midi=61 string=C fret=1 measure=5 beat=2.00 reason=prefer manageable fret 1, hand position around fret 1, note fits naturally in local hand shape, anchor shift 0, stay in same hand position, same string small move, middle strings often feel stable
+009 note=C#4 midi=61 string=C fret=1 measure=5 beat=2.00 reason=prefer manageable fret 1, hand position around fret 1, note fits naturally in local hand shape, anchor shift 0, stay in same hand position, same string small move, middle strings often feel stable
+010 note=C#4 midi=61 string=C fret=1 measure=5 beat=2.50 reason=prefer manageable fret 1, hand position around fret 1, note fits naturally in local hand shape, anchor shift 0, stay in same hand position, same string small move, middle strings often feel stable
+011 note=G#3 midi=56 string=C fret=0 measure=7 beat=3.00 reason=open string is easy, anchor shift 1, small hand move, same string small move
+012 note=E4 midi=64 string=E fret=0 measure=8 beat=1.00 reason=open string is easy, anchor shift 0, adjacent string within same shape
+013 note=G#3 midi=56 string=C fret=0 measure=10 beat=2.00 reason=open string is easy, anchor shift 0, adjacent string within same shape
+014 note=G#3 midi=56 string=C fret=0 measure=10 beat=3.00 reason=open string is easy, anchor shift 0, same string small move
+015 note=G#3 midi=56 string=C fret=0 measure=10 beat=4.00 reason=open string is easy, anchor shift 0, same string small move
+016 note=C#4 midi=61 string=C fret=1 measure=13 beat=2.50 reason=prefer manageable fret 1, hand position around fret 1, note fits naturally in local hand shape, anchor shift 1, small hand move, same string small move, middle strings often feel stable
+017 note=C#4 midi=61 string=C fret=1 measure=13 beat=2.50 reason=prefer manageable fret 1, hand position around fret 1, note fits naturally in local hand shape, anchor shift 0, stay in same hand position, same string small move, middle strings often feel stable
+018 note=C#4 midi=61 string=C fret=1 measure=13 beat=2.50 reason=prefer manageable fret 1, hand position around fret 1, note fits naturally in local hand shape, anchor shift 0, stay in same hand position, same string small move, middle strings often feel stable
+019 note=C#4 midi=61 string=C fret=1 measure=13 beat=3.00 reason=prefer manageable fret 1, hand position around fret 1, note fits naturally in local hand shape, anchor shift 0, stay in same hand position, same string small move, middle strings often feel stable
+020 note=C#4 midi=61 string=C fret=1 measure=13 beat=3.00 reason=prefer manageable fret 1, hand position around fret 1, note fits naturally in local hand shape, anchor shift 0, stay in same hand position, same string small move, middle strings often feel stable
+021 note=C#4 midi=61 string=C fret=1 measure=13 beat=3.00 reason=prefer manageable fret 1, hand position around fret 1, note fits naturally in local hand shape, anchor shift 0, stay in same hand position, same string small move, middle strings often feel stable
+022 note=C#4 midi=61 string=C fret=1 measure=13 beat=3.00 reason=prefer manageable fret 1, hand position around fret 1, note fits naturally in local hand shape, anchor shift 0, stay in same hand position, same string small move, middle strings often feel stable
+023 note=C#4 midi=61 string=C fret=1 measure=13 beat=3.50 reason=prefer manageable fret 1, hand position around fret 1, note fits naturally in local hand shape, anchor shift 0, stay in same hand position, same string small move, middle strings often feel stable
+024 note=G#3 midi=56 string=C fret=0 measure=15 beat=4.00 reason=open string is easy, anchor shift 1, small hand move, same string small move
+025 note=E4 midi=64 string=E fret=0 measure=16 beat=1.50 reason=open string is easy, anchor shift 0, adjacent string within same shape
+026 note=G#3 midi=56 string=C fret=0 measure=17 beat=4.00 reason=open string is easy, anchor shift 0, adjacent string within same shape
+027 note=G#3 midi=56 string=C fret=0 measure=18 beat=1.00 reason=open string is easy, anchor shift 0, same string small move
+028 note=G#3 midi=56 string=C fret=0 measure=18 beat=2.00 reason=open string is easy, anchor shift 0, same string small move
+029 note=G#3 midi=56 string=C fret=0 measure=21 beat=4.50 reason=open string is easy, anchor shift 0, same string small move
+030 note=G#3 midi=56 string=C fret=0 measure=22 beat=1.50 reason=open string is easy, anchor shift 0, same string small move
+031 note=G#3 midi=56 string=C fret=0 measure=22 beat=2.50 reason=open string is easy, anchor shift 0, same string small move
+032 note=C#4 midi=61 string=C fret=1 measure=24 beat=4.50 reason=prefer manageable fret 1, hand position around fret 1, note fits naturally in local hand shape, anchor shift 1, small hand move, same string small move, middle strings often feel stable
+033 note=C#4 midi=61 string=C fret=1 measure=25 beat=1.00 reason=prefer manageable fret 1, hand position around fret 1, note fits naturally in local hand shape, anchor shift 0, stay in same hand position, same string small move, middle strings often feel stable
+034 note=C#4 midi=61 string=C fret=1 measure=25 beat=1.00 reason=prefer manageable fret 1, hand position around fret 1, note fits naturally in local hand shape, anchor shift 0, stay in same hand position, same string small move, middle strings often feel stable
+035 note=C#4 midi=61 string=C fret=1 measure=25 beat=1.00 reason=prefer manageable fret 1, hand position around fret 1, note fits naturally in local hand shape, anchor shift 0, stay in same hand position, same string small move, middle strings often feel stable
+036 note=C#4 midi=61 string=C fret=1 measure=25 beat=1.50 reason=prefer manageable fret 1, hand position around fret 1, note fits naturally in local hand shape, anchor shift 0, stay in same hand position, same string small move, middle strings often feel stable
+037 note=C#4 midi=61 string=C fret=1 measure=25 beat=1.50 reason=prefer manageable fret 1, hand position around fret 1, note fits naturally in local hand shape, anchor shift 0, stay in same hand position, same string small move, middle strings often feel stable
+038 note=C#4 midi=61 string=C fret=1 measure=25 beat=1.50 reason=prefer manageable fret 1, hand position around fret 1, note fits naturally in local hand shape, anchor shift 0, stay in same hand position, same string small move, middle strings often feel stable
+039 note=C#4 midi=61 string=C fret=1 measure=25 beat=1.50 reason=prefer manageable fret 1, hand position around fret 1, note fits naturally in local hand shape, anchor shift 0, stay in same hand position, same string small move, middle strings often feel stable
+040 note=C#4 midi=61 string=C fret=1 measure=25 beat=1.50 reason=prefer manageable fret 1, hand position around fret 1, note fits naturally in local hand shape, anchor shift 0, stay in same hand position, same string small move, middle strings often feel stable
+041 note=G#3 midi=56 string=C fret=0 measure=27 beat=2.50 reason=open string is easy, anchor shift 1, small hand move, same string small move
+042 note=G#3 midi=56 string=C fret=0 measure=27 beat=2.50 reason=open string is easy, anchor shift 0, same string small move
+043 note=E4 midi=64 string=E fret=0 measure=27 beat=4.00 reason=open string is easy, anchor shift 0, adjacent string within same shape
+044 note=E4 midi=64 string=E fret=0 measure=27 beat=4.00 reason=open string is easy, anchor shift 0, same string small move

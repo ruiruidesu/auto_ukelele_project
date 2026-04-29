@@ -1,0 +1,5 @@
+Pitch histogram
+E: 1742
+D#: 676
+F: 161
+G: 161

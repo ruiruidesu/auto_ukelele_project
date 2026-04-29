@@ -1,0 +1,7 @@
+Ukulele mapping debug
+status: skipped_until_segmented_notes_are_reviewed
+bpm estimate: 101.33
+time signature tendency: 4/4 tendency
+beat positions: 0.4934, 1.0855, 1.6777, 2.2698, 2.8619, 3.4540, 4.0461, 4.6382, 5.2303, 5.8224, 6.4145, 7.0066, 7.5987, 8.1908, 8.7829, 9.3750, 9.9671, 10.5592, 11.1513, 11.7434, 12.3355, 12.9277, 13.5198, 14.1119, 14.7040
+measure segmentation: 0.4934, 2.8618, 5.2302, 7.5987, 9.9671, 12.3355, 14.7039
+Mapping intentionally disabled in this stage.

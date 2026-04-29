@@ -1,0 +1,98 @@
+{
+  "core_inference": [
+    {
+      "name": "audio_preprocessing",
+      "category": "core_inference",
+      "description": "Load audio/video, extract mono audio, resample, trim silence, and normalize level.",
+      "generalization_note": "General-purpose preprocessing that does not depend on a specific song pattern."
+    },
+    {
+      "name": "frame_level_pitch_tracking",
+      "category": "core_inference",
+      "description": "Estimate frame-level F0 candidates and voiced/unvoiced states from the waveform.",
+      "generalization_note": "Core monophonic pitch extraction; intended to generalize across clean single-note inputs."
+    },
+    {
+      "name": "onset_aware_note_segmentation",
+      "category": "core_inference",
+      "description": "Convert frame-level pitch into raw note events using onset evidence, pitch continuity, and minimum duration logic.",
+      "generalization_note": "General note-boundary inference for plucked single-note audio."
+    },
+    {
+      "name": "beat_and_measure_inference",
+      "category": "core_inference",
+      "description": "Estimate BPM, beat grid, measure boundaries, and base quantization phase from audio timing evidence.",
+      "generalization_note": "General rhythmic inference layer, but still imperfect for complex subdivisions."
+    },
+    {
+      "name": "pattern_level_rhythm_decoding",
+      "category": "core_inference",
+      "description": "Decode beat-local rhythm patterns such as quarter, eighth-pair, sixteenth groups, and triplets from quantized note timing.",
+      "generalization_note": "General symbolic rhythm interpretation, but sensitive to upstream segmentation quality."
+    }
+  ],
+  "heuristic_corrections": [
+    {
+      "name": "closed_set_pitch_constraint",
+      "category": "heuristic_correction",
+      "description": "Restrict candidate pitches to a known note set when the caller provides candidate notes.",
+      "generalization_note": "Useful for benchmarked exercises, but not a general open-set recognition ability."
+    },
+    {
+      "name": "same_pitch_fragment_consolidation",
+      "category": "heuristic_correction",
+      "description": "Merge or preserve same-pitch neighboring fragments based on confidence, gap size, and repeated-run context.",
+      "generalization_note": "Generalizable heuristic for plucked repeated notes, but still threshold-driven."
+    },
+    {
+      "name": "stable_anchor_alignment_after_tuplet_run",
+      "category": "heuristic_correction",
+      "description": "After a same-pitch tuplet run, prefer aligning a following different-pitch stable anchor to the next strong beat when the raw timing supports that interpretation.",
+      "generalization_note": "Abstracted from case-specific failures, but intended as a general rule for repeated-run to anchor transitions."
+    },
+    {
+      "name": "anchor_sequence_alignment_after_repeated_tuplets",
+      "category": "heuristic_correction",
+      "description": "When repeated same-pitch tuplets are followed by a sequence of long anchors with consistent raw spacing, promote those anchors to consecutive integer beats.",
+      "generalization_note": "Generalized from repeated-run benchmark failures; still a heuristic correction rather than pure model inference."
+    },
+    {
+      "name": "repeated_note_rhythm_regularization",
+      "category": "heuristic_correction",
+      "description": "Regularize dense same-pitch note runs toward a more consistent symbolic rhythm when raw timing strongly suggests a repeated pattern.",
+      "generalization_note": "General post-processing heuristic that can help or overfit depending on the sample."
+    },
+    {
+      "name": "pitch_path_optimization",
+      "category": "heuristic_correction",
+      "description": "Use a note-sequence path search to prefer pitch candidates that fit the observed frequency while keeping neighboring transitions musically plausible.",
+      "generalization_note": "General smoothing heuristic for open-set single-note material; more robust than per-note greedy assignment, but still not a learned model."
+    },
+    {
+      "name": "repeated_phrase_consensus_regularization",
+      "category": "heuristic_correction",
+      "description": "Detect strongly similar one- or two-measure phrases and nudge their symbolic beat positions and durations toward a shared consensus template.",
+      "generalization_note": "General phrase-consistency heuristic intended to stabilize repeated melodies, though still threshold-driven and conservative."
+    }
+  ],
+  "validation_observations": [
+    {
+      "sample_name": "case3",
+      "validation_type": "benchmark_fit",
+      "status": "partial",
+      "notes": "Current rules were actively tuned against case3 to fix triplet-to-anchor transitions. This improves benchmark fit but does not by itself prove generalization."
+    },
+    {
+      "sample_name": "case1",
+      "validation_type": "cross_sample_triplet_check",
+      "status": "not_available",
+      "notes": "No matching unseen local sample with a similar triplet-plus-anchor structure has been validated yet."
+    },
+    {
+      "sample_name": "case2",
+      "validation_type": "cross_sample_regression_check",
+      "status": "pending",
+      "notes": "Case2 is rhythmically different from case3. It is still useful as a regression check to ensure new heuristics do not break non-triplet repeated-note material."
+    }
+  ]
+}

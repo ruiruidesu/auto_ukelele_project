@@ -1,0 +1,5 @@
+Ukulele mapping
+001 note=A4 midi=69 string=A fret=0 measure=1 beat=1.00 reason=prefer lower fret 0, open string is easy
+002 note=B4 midi=71 string=A fret=2 measure=1 beat=2.00 reason=prefer lower fret 2, fret shift 2, string shift 0, same string small move
+003 note=C5 midi=72 string=A fret=3 measure=1 beat=3.00 reason=prefer lower fret 3, fret shift 1, string shift 0, same string small move
+004 note=D5 midi=74 string=A fret=5 measure=1 beat=4.00 reason=prefer lower fret 5, fret shift 2, string shift 0, same string small move

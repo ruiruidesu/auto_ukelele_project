@@ -1,0 +1,9 @@
+{
+  "source_family": "ukulele",
+  "source_confidence": 0.7929,
+  "texture_type": "monophonic_clean",
+  "texture_confidence": 0.82,
+  "vocal_presence": false,
+  "recommended_pipeline": "ukulele_monophonic_pipeline",
+  "notes": "family=ukulele, texture=monophonic_clean, harmonic_ratio=141.00, centroid=629.9Hz, active_pitch_classes=1.15, voiced_ratio=1.00, median_duration=0.470s, ukulele_playable_ratio=1.00. This is a heuristic source router, not a trained classifier."
+}

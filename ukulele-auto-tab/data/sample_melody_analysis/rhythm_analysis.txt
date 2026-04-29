@@ -1,0 +1,8 @@
+Rhythm analysis
+bpm estimate: 152.0
+bpm confidence note: Estimated from onset strength and beat tracking; verify against the input melody.
+time signature tendency: 4/4 tendency
+quantization grid: 1/8 note grid
+beat positions: 0.0232, 0.4180, 0.8127, 1.2307, 1.5790
+strong beat positions: 0.0232, 1.5790
+measure segmentation: 0.0000, 0.0232, 1.5790

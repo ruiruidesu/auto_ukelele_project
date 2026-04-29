@@ -1,0 +1,5 @@
+Melody note timeline
+001 start=0.0000s duration=0.3773s note=A4 midi=69 freq=440.000Hz beat=0.00 len_beats=1.00 conf=0.98
+002 start=0.4238s duration=0.3425s note=B4 midi=71 freq=493.883Hz beat=1.00 len_beats=1.00 conf=0.98
+003 start=0.8359s duration=0.3309s note=C5 midi=72 freq=523.251Hz beat=2.00 len_beats=1.00 conf=0.98
+004 start=1.2365s duration=0.3657s note=D5 midi=74 freq=587.330Hz beat=3.00 len_beats=1.00 conf=0.98

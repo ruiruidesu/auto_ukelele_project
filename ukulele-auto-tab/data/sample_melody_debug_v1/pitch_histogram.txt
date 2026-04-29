@@ -1,0 +1,7 @@
+Pitch histogram
+D: 66
+A: 65
+B: 65
+C: 65
+A#: 8
+C#: 7

@@ -1,0 +1,62 @@
+[
+  {
+    "note_index": 1,
+    "note_name": "A4",
+    "midi": 69,
+    "start_time": 0.0,
+    "duration": 0.3773,
+    "measure_number": 1,
+    "beat_in_measure": 1.0,
+    "quantized_duration_beats": 1.0,
+    "chosen_string": "G",
+    "chosen_string_number": 4,
+    "chosen_fret": 2,
+    "hand_position_fret": 2,
+    "mapping_reason": "prefer manageable fret 2, hand position around fret 2, note fits naturally in local hand shape"
+  },
+  {
+    "note_index": 2,
+    "note_name": "B4",
+    "midi": 71,
+    "start_time": 0.4238,
+    "duration": 0.3425,
+    "measure_number": 1,
+    "beat_in_measure": 2.0,
+    "quantized_duration_beats": 1.0,
+    "chosen_string": "A",
+    "chosen_string_number": 1,
+    "chosen_fret": 2,
+    "hand_position_fret": 2,
+    "mapping_reason": "prefer manageable fret 2, hand position around fret 2, note fits naturally in local hand shape, anchor shift 0, stay in same hand position"
+  },
+  {
+    "note_index": 3,
+    "note_name": "C5",
+    "midi": 72,
+    "start_time": 0.8359,
+    "duration": 0.3309,
+    "measure_number": 1,
+    "beat_in_measure": 3.0,
+    "quantized_duration_beats": 1.0,
+    "chosen_string": "A",
+    "chosen_string_number": 1,
+    "chosen_fret": 3,
+    "hand_position_fret": 2,
+    "mapping_reason": "prefer manageable fret 3, hand position around fret 2, note fits naturally in local hand shape, anchor shift 0, stay in same hand position, same string small move"
+  },
+  {
+    "note_index": 4,
+    "note_name": "D5",
+    "midi": 74,
+    "start_time": 1.2365,
+    "duration": 0.3657,
+    "measure_number": 1,
+    "beat_in_measure": 4.0,
+    "quantized_duration_beats": 1.0,
+    "chosen_string": "A",
+    "chosen_string_number": 1,
+    "chosen_fret": 5,
+    "hand_position_fret": 2,
+    "mapping_reason": "prefer manageable fret 5, hand position around fret 2, full four-fret stretch, anchor shift 0, stay in same hand position, same string small move"
+  }
+]

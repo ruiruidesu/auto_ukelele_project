@@ -1,0 +1,12 @@
+Segmentation report
+raw note count: 192
+merged fragments: 0
+filtered short notes: 129
+final note count: 63
+average note duration: 0.2771
+dense repeat warning: True
+minimum duration threshold: 0.12
+bpm estimate: 99.38
+time signature tendency: 4/4 tendency
+beats per measure: 4
+grid origin seconds: -0.0987
